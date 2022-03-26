@@ -15,6 +15,7 @@ services:
       - "3306:3306"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_container
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=mysql
