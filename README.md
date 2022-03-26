@@ -10,3 +10,8 @@ Launch docker-compose
 docker-compose up -d
 ```
 
+## Connect to PHPHMyAdmin
+
+1. Launch a web browser.
+2. Connect to <localhost:8080>
+
